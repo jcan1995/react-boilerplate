@@ -1,11 +1,6 @@
-/*"require('module')" => commonJS syntax. */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-/*"module.exports = { }" => commonJS syntax. */
-/*
-  entry: => react entry file
-*/
 module.exports = {
   entry: './src/index.js',
   output: {
